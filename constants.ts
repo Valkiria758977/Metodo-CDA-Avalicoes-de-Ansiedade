@@ -7,7 +7,7 @@ import { Interpretation, QuestionBlock } from './types';
 // Exemplo: "https://sua-empresa.com.br/logo.png"
 // Se deixar vazio (""), aparecerá o ícone padrão.
 // NOTA: Imagens do Google Drive devem estar com permissão "Qualquer pessoa com o link".
-export const URL_DA_LOGO = "https://lh3.googleusercontent.com/d/1N_ZZ3zt59n5Qom0VVwfWC0SFKCy4eLTO";
+export const URL_DA_LOGO = "https://drive.google.com/thumbnail?id=1LbXWpO0iA_qqoSB1wG_VTvHVcpUKMnGu&sz=w1000";
 // ==================================================================================
 
 export const THEME = {
@@ -62,8 +62,8 @@ export const TEST_DATA: QuestionBlock[] = [
 
 export const INTERPRETATION_RANGES: Interpretation[] = [
     { min: 0, max: 15, level: 'Estado Emocional Estável', colorBg: '#ECFDF5', colorText: '#065F46', suggestions: 'Você apresenta sinais de boa regulação emocional. Recomenda-se manter hábitos saudáveis e intervenções preventivas.' },
-    { min: 16, max: 30, level: 'Ansiedade Inicial (nível adaptativo)', colorBg: '#FEFCE8', colorText: '#854D0E', suggestions: 'Indica sobrecarga emocional e padrões mentais que precisam ser reorganizados. Sugestão CDA: Procure a ajuda de um bom terapeuta.' },
-    { min: 31, max: 45, level: 'Ansiedade Moderada (estado de ameaça interna)', colorBg: '#FFF7ED', colorText: '#9A3412', suggestions: 'A ansiedade já afeta decisões, humor e corpo. Sugestão CDA: Procure a ajuda de um bom terapeuta.' },
-    { min: 46, max: 60, level: 'Ansiedade Elevada (ciclo ativo de estresse)', colorBg: '#FEF2F2', colorText: '#991B1B', suggestions: 'A ansiedade já domina rotina e relações. Sugestão CDA: Procure a ajuda de um bom terapeuta.' },
-    { min: 61, max: 75, level: 'Ansiedade Grave (estado de hiperalerta constante)', colorBg: '#FEF2F2', colorText: '#991B1B', suggestions: 'Há sinais profundos de desconexão emocional, mental e corporal. Sugestão CDA: Procure a ajuda de um bom terapeuta.' }
+    { min: 16, max: 30, level: 'Ansiedade Inicial (nível adaptativo)', colorBg: '#FEFCE8', colorText: '#854D0E', suggestions: 'Sugestão CDA: Procure a ajuda de um bom terapeuta.' },
+    { min: 31, max: 45, level: 'Ansiedade Moderada (estado de ameaça interna)', colorBg: '#FFF7ED', colorText: '#9A3412', suggestions: 'Ansiedade afetando decisões, humor e corpo. Sugestão CDA: Procure a ajuda de um bom terapeuta.' },
+    { min: 46, max: 60, level: 'Ansiedade Elevada (ciclo ativo de estresse)', colorBg: '#FEF2F2', colorText: '#991B1B', suggestions: 'Ansiedade dominando rotina e relações. Sugestão CDA: Procure a ajuda de um bom terapeuta.' },
+    { min: 61, max: 75, level: 'Ansiedade Grave (estado de hiperalerta constante)', colorBg: '#FEF2F2', colorText: '#991B1B', suggestions: 'Sinais profundos de desconexão emocional. Sugestão CDA: Procure a ajuda de um bom terapeuta.' }
 ];
